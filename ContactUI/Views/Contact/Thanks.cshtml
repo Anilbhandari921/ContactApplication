@@ -1,0 +1,8 @@
+﻿@model ContactUtilities.Contact
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+@{
+    ViewData["Title"] = "Thanks";
+    Layout = "~/Pages/Shared/_Layout.cshtml";
+}
+<a asp-action="Index">View All Contacts</a>
+<h2>Thanks, @Model.ContactName</h2>

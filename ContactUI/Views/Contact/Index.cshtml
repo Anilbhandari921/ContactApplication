@@ -1,0 +1,38 @@
+﻿@model IEnumerable<ContactUtilities.Contact>
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Pages/Shared/_Layout.cshtml";
+}
+<a asp-action="Create">Create an Contacts</a>
+<h2>Here is the list of Contacts</h2>
+<table style="width:50%">
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>City</th>
+            <th>Email</th>
+            <th>Phone</th>
+            <th></th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (ContactUtilities.Contact e in Model)
+        {
+        <tr>
+            <td>@e.ContactName</td>
+            <td>@e.ContactCity</td>
+            <td>@e.ContactEmail</td>
+            <td>@e.ContactPhone</td>
+            <td><a asp-action="Update" asp-route-id="@e.ContactId">Update</a></td>
+            <td>
+                <form asp-route-id="@e.ContactId" asp-action="Delete" method="post">
+                    <button type="submit">Delete</button>
+                </form>
+            </td>
+        </tr>
+        }
+    </tbody>
+</table>

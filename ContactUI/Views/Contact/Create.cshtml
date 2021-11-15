@@ -1,0 +1,29 @@
+﻿@model ContactUtilities.Contact
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+@{
+    ViewData["Title"] = "Create";
+    Layout = "~/Pages/Shared/_Layout.cshtml";
+}
+<a asp-action="Index">View All Contacts</a>
+<h2>Create</h2>
+<form asp-action="Create" asp-controller="Contact">
+    <p>
+        <label asp-for="ContactName">Name:</label>
+        <input asp-for="ContactName" />
+    </p>
+    <p>
+        <label asp-for="ContactEmail">Email:</label>
+        <input asp-for="ContactEmail" />
+    </p>
+    <p>
+        <label asp-for="ContactCity">City:</label>
+        <input asp-for="ContactCity" />
+    </p>
+
+    <p>
+        <label asp-for="ContactPhone">Phone:</label>
+        <input asp-for="ContactPhone" />
+    </p>
+
+    <p><button type="submit">Submit</button></p>
+</form>

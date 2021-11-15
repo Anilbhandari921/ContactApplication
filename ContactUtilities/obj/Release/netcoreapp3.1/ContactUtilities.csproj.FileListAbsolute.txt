@@ -1,0 +1,8 @@
+C:\Users\anilb\Downloads\ContactApplication\ContactApplication\ContactUtilities\bin\Release\netcoreapp3.1\ContactUtilities.deps.json
+C:\Users\anilb\Downloads\ContactApplication\ContactApplication\ContactUtilities\bin\Release\netcoreapp3.1\ContactUtilities.dll
+C:\Users\anilb\Downloads\ContactApplication\ContactApplication\ContactUtilities\bin\Release\netcoreapp3.1\ContactUtilities.pdb
+C:\Users\anilb\Downloads\ContactApplication\ContactApplication\ContactUtilities\obj\Release\netcoreapp3.1\ContactUtilities.AssemblyInfoInputs.cache
+C:\Users\anilb\Downloads\ContactApplication\ContactApplication\ContactUtilities\obj\Release\netcoreapp3.1\ContactUtilities.AssemblyInfo.cs
+C:\Users\anilb\Downloads\ContactApplication\ContactApplication\ContactUtilities\obj\Release\netcoreapp3.1\ContactUtilities.csproj.CoreCompileInputs.cache
+C:\Users\anilb\Downloads\ContactApplication\ContactApplication\ContactUtilities\obj\Release\netcoreapp3.1\ContactUtilities.dll
+C:\Users\anilb\Downloads\ContactApplication\ContactApplication\ContactUtilities\obj\Release\netcoreapp3.1\ContactUtilities.pdb
