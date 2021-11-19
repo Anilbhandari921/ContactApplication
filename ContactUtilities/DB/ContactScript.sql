@@ -167,7 +167,7 @@ BEGIN
         DELETE [dbo].[tblContact]  
         WHERE [ContactId] = @ContactId   
         SELECT 1  
-        COMMITTRANSACTION  
+        COMMIT TRANSACTION  
     END TRY  
     BEGIN CATCH  
             DECLARE @ErrorMessage NVARCHAR(4000),@ErrorSeverity INT,@ErrorState INT;  
