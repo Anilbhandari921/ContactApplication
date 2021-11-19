@@ -9,14 +9,7 @@ namespace ContactApi.DataServices
 {
     public class DataService
     {
-        private static List<Contact> allContacts = new List<Contact>()
-        {
-            { new Contact(1, "Anil","anil@gmail.com","Merut","82828282828")},
-            { new Contact(2,"Suni","anil@gmail.com","Merut","82828282828")},
-            { new Contact(3, "Ranil","anil@gmail.com","Merut","82828282828")},
-            { new Contact(4, "Sumit","anil@gmail.com","Merut","82828282828")},
-        };
-
+       
         public List<Contact> GetContactList()
         {
 
